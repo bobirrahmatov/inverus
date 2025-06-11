@@ -45,7 +45,7 @@ const DashboardSidebar = () => {
                         </span>
                     </Button>
                 </Container>
-                <ul className="w-full space-y-2 py-5">
+                {/* <ul className="w-full space-y-2 py-5">
                     {SIDEBAR_LINKS.map((link, index) => {
 
                         const isActive = pathname === link.href;
@@ -67,7 +67,7 @@ const DashboardSidebar = () => {
                             </li>
                         )
                     })}
-                </ul>
+                </ul> */}
                 <div className="mt-auto flex flex-col gap-3 w-full">
                     <Container delay={0.3}>
                         <div className="h-10 w-full">

@@ -13,7 +13,7 @@ const DashboardLayout = ({ children }: Props) => {
             <main className="flex flex-col lg:flex-row flex-1 size-full">
                 <DashboardSidebar />
                 <div className="w-full pt-14 lg:ml-72">
-                    {children}
+                    {/* {children} */}
                 </div>
             </main>
         </div>
